@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-nov-2020, 14:20:21
+    Author     : Propietario
+*/
+
+body{
+    background-color: honeydew;
+    font-family: fantasy;
+}
+#main-container{
+    margin: 250px auto;
+    width: 600px;
+}
+table{
+    background-color: cornflowerblue;
+        text-align: left;
+        border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    border: solid 2px black ;
+    padding: 16px;
+}
+thead{background-color:  blue;
+border-bottom: solid 4px rgb;
+color: buttontext;
+}
+tr:nth-child(even){background-color: aquamarine;
+}
